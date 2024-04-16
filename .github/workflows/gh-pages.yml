@@ -1,9 +1,15 @@
-name: Deploy Docs to GitHub Pages
-on: push
+name: Deploy portfolio to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [closed]
 
 jobs:
   build:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.base.ref == 'main')
     runs-on: ubuntu-latest
     
     env:
