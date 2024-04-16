@@ -1,6 +1,6 @@
-﻿using WasmPortfolio.Models;
+﻿using codewithabkhan.github.io.Models;
 
-namespace WasmPortfolio.Services;
+namespace codewithabkhan.github.io.Services;
 
 public class ProjectServices : IProjectServices
 {

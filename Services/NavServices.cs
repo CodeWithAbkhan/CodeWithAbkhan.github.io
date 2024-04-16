@@ -1,5 +1,5 @@
-﻿using WasmPortfolio.Models; 
-namespace WasmPortfolio.Services;
+﻿using codewithabkhan.github.io.Models; 
+namespace codewithabkhan.github.io.Services;
 public class NavServices
     {
         public NavigationModel GetNavigation()

@@ -1,4 +1,4 @@
-﻿namespace WasmPortfolio.Models;
+﻿namespace codewithabkhan.github.io.Models;
 
 public class Link
 {

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using WasmPortfolio;
-using WasmPortfolio.Services;
+using codewithabkhan.github.io;
+using codewithabkhan.github.io.Services;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.Services.AddScoped<ProjectServices>();

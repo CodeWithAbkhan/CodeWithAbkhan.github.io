@@ -8,7 +8,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Validator = System.ComponentModel.DataAnnotations;
 
-namespace WasmPortfolio;
+namespace codewithabkhan.github.io;
 public class EmailServices
 {
     private readonly HttpClient _httpClient;
