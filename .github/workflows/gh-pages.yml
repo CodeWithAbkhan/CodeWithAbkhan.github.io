@@ -1,49 +1,39 @@
-name: Deploy Docs to GitHub Pages
-on: push
+name: Deploy gh-page Branch
+permissions:
+  contents: write
+# Run workflow on every push to the master branch
+on:
+  push:
+    branches: [ main ]
 
 jobs:
-  build:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+  deploy-to-github-pages:
+    # use ubuntu-latest image to run steps on
     runs-on: ubuntu-latest
-    
-    env:
-      PUBLISH_FOLDER: bin/Release/net8.0/publish/wwwroot
-
-    name: Build and Deploy Job 
     steps:
-      - name: Set the name of the repo in env variable 
-        run: echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
-        
-      - uses: actions/checkout@v2
+    # uses GitHub's checkout action to checkout code form the master branch
+    - uses: actions/checkout@v4
+    
+    # sets up .NET Core SDK 3.1
+    - name: Setup dotnet 8.x
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.x'
+
+    # publishes Blazor project to the release-folder
+    - name: Publish .NET Project
+      run: dotnet workload install wasm-tools; dotnet publish WasmPortfolio.csproj -c Release -o release --nologo
+    
+    # copy index.html to 404.html to serve the same file when a file is not found
+    - name: copy index.html to 404.html
+      run: cp release/wwwroot/index.html release/wwwroot/404.html
+
+    # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
+    - name: Add .nojekyll file
+      run: touch release/wwwroot/.nojekyll
       
-      - uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.x'
-   
-      - name: Dotnet Publish
-        run: dotnet publish --configuration Release -f net8.0
-      
-      - name: Use Secret as Environment Variable
-        env:
-          PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-        run: echo "Secret Value TOKEN= $PUBLISH_TOKEN"
-      
-      - name: Change base-tag in index.html to repo name
-        run: sed -i 's/<base href="\/" \/>/<base href="\/${{ env.REPO_NAME }}\/" \/>/g' $GITHUB_WORKSPACE/${{ env.PUBLISH_FOLDER }}/index.html
-  
-      - name: Copy index.html to 404.html
-        run: cp $GITHUB_WORKSPACE/${{ env.PUBLISH_FOLDER }}/index.html $GITHUB_WORKSPACE/${{ env.PUBLISH_FOLDER }}/404.html
-      
-      - name: Add .nojekyll file 
-        run: touch ${{ env.PUBLISH_FOLDER }}/.nojekyll
-        
-      - name: Deploy GitHub Pages action
-        if: github.ref == 'refs/heads/main'
-        uses:  actions/deploy-pages@v4
-        with:
-          github_token: ${{ secrets.PUBLISH_TOKEN }} 
-          publish_branch: gh-pages
-          publish_dir: ${{ env.PUBLISH_FOLDER }}
-          allow_empty_commit: false
-          keep_files: false
-          force_orphan: true
+    - name: Commit wwwroot to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        BRANCH: gh-pages
+        FOLDER: release/wwwroot
