@@ -39,7 +39,7 @@ jobs:
         
       - name: Deploy GitHub Pages action
         if: github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v3.6.1
+        uses:  actions/deploy-pages@v4
         with:
           github_token: ${{ secrets.PUBLISH_TOKEN }} 
           publish_branch: gh-pages
