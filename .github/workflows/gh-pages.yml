@@ -1,5 +1,16 @@
 name: Deploy Personal portfolio to GitHub Pages
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+  
 on:
   push:
     branches:
@@ -42,7 +53,7 @@ jobs:
       
       - name: Add .nojekyll file 
         run: touch ${{ env.PUBLISH_FOLDER }}/.nojekyll
-        
+      
       - name: Deploy GitHub Pages action
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3.6.1
