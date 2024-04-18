@@ -257,16 +257,16 @@
       "PackagePath": "staticwebassets\\images\\projects\\Blog-using-latest-Blazor-Static-Server-Rendering-Features-Project.png"
     },
     {
-      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\Database Schema B.png",
-      "PackagePath": "staticwebassets\\images\\projects\\Database Schema B.png"
-    },
-    {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\blazor-dotnet-wasm-portfolio-github-light.png",
       "PackagePath": "staticwebassets\\images\\projects\\blazor-dotnet-wasm-portfolio-github-light.png"
     },
     {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\blazor-dotnet-wasm-portfolio-github.png",
       "PackagePath": "staticwebassets\\images\\projects\\blazor-dotnet-wasm-portfolio-github.png"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\database-schema-inventory.png",
+      "PackagePath": "staticwebassets\\images\\projects\\database-schema-inventory.png"
     },
     {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\db2.png",

@@ -13,7 +13,9 @@
         <div class="mr-auto hidden gap-2 lg:flex">
             @foreach (var item in nav.LeftItems)
             {
-               <NavLink href="@item.Href" class="relative rounded-md p-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:text-white dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2">
+                
+               <NavLink href="@item.Href" class="relative rounded-md p-1 transition-all hover:bg-black/10 hover:text-neutral-800 dark:text-white dark:hover:bg-white/10 dark:hover:text-neutral-200 sm:px-3 sm:py-2"
+                target="@((item.Target == "_external") ? "_blank" : null)">
                    @item.Title
                     @if (!string.IsNullOrEmpty(@item.Target) && (@item.Target == "_blank" || @item.Target == "_external"))
                     {

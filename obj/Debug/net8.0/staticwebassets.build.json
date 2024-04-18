@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LF+wAArMjeGIgug4tC2RQUfuVkUHCFqWebxbl4yn0Ig=",
+  "Hash": "0gHBeS7GICrgG366rDK4Qo1VxSL9mhBeo9lijfi5A1w=",
   "Source": "codewithabkhan.github.io",
   "BasePath": "/",
   "Mode": "Root",
@@ -9004,12 +9004,12 @@
       "OriginalItemSpec": "wwwroot\\images\\projects\\Blog-using-latest-Blazor-Static-Server-Rendering-Features-Project.png"
     },
     {
-      "Identity": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\Database Schema B.png",
+      "Identity": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\database-schema-inventory.png",
       "SourceId": "codewithabkhan.github.io",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/projects/Database Schema B.png",
+      "RelativePath": "images/projects/database-schema-inventory.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -9020,7 +9020,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\projects\\Database Schema B.png"
+      "OriginalItemSpec": "wwwroot\\images\\projects\\database-schema-inventory.png"
     },
     {
       "Identity": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\db2.png",

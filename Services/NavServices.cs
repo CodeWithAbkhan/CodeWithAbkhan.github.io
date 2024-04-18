@@ -11,8 +11,8 @@ public class NavServices
                     new NavItem { Href = "", Title = "Home" },
                     new NavItem { Href = "about", Title = "About" },
                     new NavItem { Href = "work", Title = "My Work" },
-                    new NavItem { Href = "https://sqlpey.com", Title = "Blog" },
-                    new NavItem { Href = "techs", Title = "What I use" }
+                    new NavItem { Href = "techs", Title = "What I use" },
+                    new NavItem { Href = "https://sqlpey.com", Title = "Blog",Target="_external" }
                     // Add more left navigation items as needed
                 },
                 RightItems = new List<NavItem>
