@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "codewithabkhan.github.io",
   "resources": {
-    "hash": "sha256-IwzlxT69Y0u2K3Ns1nEDJ1uyYE0N7rnctatV9UDsO4A=",
+    "hash": "sha256-M6EBwsebvm3ojbQkemzstpMHXnrxE1Gz4uaN+N9r6Dw=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.qoebnpp30s.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-VCfYgt1mcjITabSTosCDVZ+68ea3Z7kakTFaLNLG+18=",
       "netstandard.wasm": "sha256-YOZxxR9PM3Dltcijfb0Q4FD39DkWZbZ1e2ScbZDvWJ4=",
       "System.Private.CoreLib.wasm": "sha256-NrT1QkAzVU//2wgK9vXdq77lCGvLJ4IOZ+Aegesyanc=",
-      "codewithabkhan.github.io.wasm": "sha256-Z13kXf9x6+6YxJHG5/53IoxYqBl9UA4aULxB75HRctQ="
+      "codewithabkhan.github.io.wasm": "sha256-/t/Pfo/1f8RnwlyumlLtFHCacwyiDTv7Q2lOVeXbsiU="
     },
     "pdb": {
-      "codewithabkhan.github.io.pdb": "sha256-7wyzTV0X0grSaUNV23cIA15ESzQ+62MWJ/KLQdooKbM="
+      "codewithabkhan.github.io.pdb": "sha256-AbdW8r4aHLaauFtALfEhoCEKPShl4QK+y52gAC9jT60="
     }
   },
   "cacheBootResources": true,

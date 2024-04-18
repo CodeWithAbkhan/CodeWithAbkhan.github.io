@@ -81,6 +81,18 @@
       "PackagePath": "staticwebassets\\images\\icons\\cpp.svg"
     },
     {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\csharp.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\csharp.svg"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\css.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\css.svg"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\database.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\database.svg"
+    },
+    {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\deno.svg",
       "PackagePath": "staticwebassets\\images\\icons\\deno.svg"
     },
@@ -109,6 +121,10 @@
       "PackagePath": "staticwebassets\\images\\icons\\figma.svg"
     },
     {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\flow.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\flow.svg"
+    },
+    {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\git.svg",
       "PackagePath": "staticwebassets\\images\\icons\\git.svg"
     },
@@ -117,8 +133,20 @@
       "PackagePath": "staticwebassets\\images\\icons\\github.svg"
     },
     {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\go.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\go.svg"
+    },
+    {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\graphql.svg",
       "PackagePath": "staticwebassets\\images\\icons\\graphql.svg"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\html.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\html.svg"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\hugo.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\hugo.svg"
     },
     {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\javascript.svg",
@@ -197,6 +225,14 @@
       "PackagePath": "staticwebassets\\images\\icons\\vercel.svg"
     },
     {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\visualstudio.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\visualstudio.svg"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\vscode.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\vscode.svg"
+    },
+    {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\webassembly.svg",
       "PackagePath": "staticwebassets\\images\\icons\\webassembly.svg"
     },
@@ -209,6 +245,10 @@
       "PackagePath": "staticwebassets\\images\\icons\\wordpress.svg"
     },
     {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\x.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\x.svg"
+    },
+    {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\Blog-single-page-latest-Blazor-Static-Server-Rendering-Features-Project.png",
       "PackagePath": "staticwebassets\\images\\projects\\Blog-single-page-latest-Blazor-Static-Server-Rendering-Features-Project.png"
     },
@@ -217,12 +257,32 @@
       "PackagePath": "staticwebassets\\images\\projects\\Blog-using-latest-Blazor-Static-Server-Rendering-Features-Project.png"
     },
     {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\Database Schema B.png",
+      "PackagePath": "staticwebassets\\images\\projects\\Database Schema B.png"
+    },
+    {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\blazor-dotnet-wasm-portfolio-github-light.png",
       "PackagePath": "staticwebassets\\images\\projects\\blazor-dotnet-wasm-portfolio-github-light.png"
     },
     {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\blazor-dotnet-wasm-portfolio-github.png",
       "PackagePath": "staticwebassets\\images\\projects\\blazor-dotnet-wasm-portfolio-github.png"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\db2.png",
+      "PackagePath": "staticwebassets\\images\\projects\\db2.png"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\flow-diagram.png",
+      "PackagePath": "staticwebassets\\images\\projects\\flow-diagram.png"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\nextjs-portfolio-full.png",
+      "PackagePath": "staticwebassets\\images\\projects\\nextjs-portfolio-full.png"
+    },
+    {
+      "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\panah-html-css-js-bootstrap-landing-page.png",
+      "PackagePath": "staticwebassets\\images\\projects\\panah-html-css-js-bootstrap-landing-page.png"
     },
     {
       "Id": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\projects\\sm-patients-management-system-project-build-with-aspnet-core-dot-net-8-full-stack-docker-sql-server-image-deployed-on-vps-ubuntu-using-docker.png",

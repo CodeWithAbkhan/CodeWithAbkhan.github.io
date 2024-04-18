@@ -1,4 +1,4 @@
-# My Portfolio Powered by .NET Blazor
+# My Portfolio Powered by .NET Blazor              
 
 ![Portfolio](wwwroot/images/projects/blazor-dotnet-wasm-portfolio-github.png)
 ![Portfolio-light-mode](wwwroot/images/projects/blazor-dotnet-wasm-portfolio-github-light.png)
