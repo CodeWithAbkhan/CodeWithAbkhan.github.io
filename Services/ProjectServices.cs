@@ -17,6 +17,13 @@ public class ProjectServices : IProjectServices
                 Description = "My Personal Porfolio build using .NET 8 and ASP.NET Core Blazor WebAssembly",
                 Images = new List<ProImage>
                 {
+                     new ProImage
+                    {
+                        Src = "images/projects/blazor-dotnet-wasm-portfolio-github.png",
+                        Alt = " main page ",
+                        Width = 1920,
+                        Height = 1080
+                    },
                     new ProImage
                     {
                         Src = "images/projects/blazor-dotnet-wasm-portfolio-github-light.png",
@@ -113,7 +120,7 @@ public class ProjectServices : IProjectServices
                 {
                     new Technology { Name = "Next.js", Icon = "images/icons/next.svg" },
                     new Technology { Name = "Tailwindcss", Icon = "images/icons/tailwindcss.svg" },
-                    new Technology { Name = "NodeJs", Icon = "images/icons/node.svg" },
+                    new Technology { Name = "NodeJs", Icon = "images/icons/nodejs.svg" },
                     new Technology { Name = "Github", Icon = "images/icons/github.svg" }
                 },
                 Website = null,

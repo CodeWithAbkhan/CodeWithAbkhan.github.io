@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0gHBeS7GICrgG366rDK4Qo1VxSL9mhBeo9lijfi5A1w=",
+  "Hash": "yLpVPu+h7xfP3mh5BDo/9Z+tckhvFRWKL+SnG8IH3uE=",
   "Source": "codewithabkhan.github.io",
   "BasePath": "/",
   "Mode": "Root",
@@ -8035,12 +8035,12 @@
       "OriginalItemSpec": "wwwroot\\images\\hero-image.png"
     },
     {
-      "Identity": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\Adobe-Photoshop.svg",
+      "Identity": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\adobe-photoshop.svg",
       "SourceId": "codewithabkhan.github.io",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/icons/Adobe-Photoshop.svg",
+      "RelativePath": "images/icons/adobe-photoshop.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8051,7 +8051,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\icons\\Adobe-Photoshop.svg"
+      "OriginalItemSpec": "wwwroot\\images\\icons\\adobe-photoshop.svg"
     },
     {
       "Identity": "E:\\portfolio\\codewithabkhan.github.io\\wwwroot\\images\\icons\\astro.svg",
